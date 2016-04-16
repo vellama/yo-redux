@@ -1,8 +1,8 @@
 {
-  "name": "yo-redux",
+  "name": "generator-yo-redux",
   "version": "0.0.1",
   "description": "yeoman generator for redux",
-  "main": "index.js",
+  "main": "generators/app/index.js",
   "scripts": {
     "test": "npm run test"
   },
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/dumeez/yo-redux/issues"
   },
-  "homepage": "https://github.com/dumeez/yo-redux#readme"
+  "homepage": "https://github.com/dumeez/yo-redux#readme",
+  "files": [
+    "generators/app",
+    "generators/reducer"
+  ],
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "yeoman-generator": "^0.22.5"
+  }
 }
