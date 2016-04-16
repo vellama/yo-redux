@@ -1,0 +1,23 @@
+{
+  "name": "yo-redux",
+  "version": "0.0.1",
+  "description": "yeoman generator for redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dumeez/yo-redux.git"
+  },
+  "keywords": [
+    "redux",
+    "yeoman"
+  ],
+  "author": "Vincent ELLAMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumeez/yo-redux/issues"
+  },
+  "homepage": "https://github.com/dumeez/yo-redux#readme"
+}
