@@ -16,11 +16,10 @@ module.exports = generators.Base.extend({
   // ----------------------------------------------------------------------
 
   configuring: function () {
-    // this._copy_babelrc();
-    // this._copy_editorconfig();
-    // this._copy_gitignore();
-    // this._copy_nvmrc();
-    // this._copy_src();
+    this._copy_babelrc();
+    this._copy_editorconfig();
+    this._copy_gitignore();
+    this._copy_nvmrc();
     this._copy_files();
   },
 
@@ -61,12 +60,7 @@ module.exports = generators.Base.extend({
   _copy_files: function () {
     this.fs.copyTpl(
       this.sourceRoot(),
-      this.destinationRoot(),
-      {
-        globOptions: {
-          dot: true
-        }
-      }
+      this.destinationRoot()
     )
   },
 
@@ -101,6 +95,7 @@ module.exports = generators.Base.extend({
 
   _install_npm: function () {
     this.npmInstall([
+      'immutable',
       'react',
       'redux',
       'react-dom',

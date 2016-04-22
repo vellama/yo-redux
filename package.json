@@ -22,9 +22,11 @@
   "homepage": "https://github.com/dumeez/yo-redux#readme",
   "files": [
     "generators/app",
+    "generators/module",
     "generators/reducer"
   ],
   "devDependencies": {
+    "dumeez-redux-base": "^1.0.0",
     "eslint": "^2.8.0",
     "yeoman-generator": "^0.22.5"
   }
